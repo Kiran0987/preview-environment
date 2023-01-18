@@ -2,8 +2,8 @@ previewsEnabled: true
 previewsExpireAfterDays: 3
 services:
 - type: web
-  plan: standard
-  previewPlan: starter
+  plan: free
+  previewPlan: free
   name: express-backend
   env: node
   buildCommand: cd backend && yarn
@@ -31,5 +31,5 @@ databases:
 - name: postgres_db
   databaseName: test_db
   user: test_user
-  plan: standard
-  previewPlan: starter
+  plan: free
+  previewPlan: free
